@@ -14,13 +14,7 @@ selectField.onclick = function(){
 options.onclick = function(){
         list.classList.toggle("hide")
 }
-// function of the search region
-// options.forEach((elt) => {
-//         elt.addEventListener("click",(e) =>{
-//                 handleFilter(e.target.textContent)
-//                 list.classList.toggle("hide")
-//         } )
-// });
+
 
 let numberOfOptions = options.length
 
